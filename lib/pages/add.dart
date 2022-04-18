@@ -200,27 +200,18 @@ class _AddState extends State<Add> {
       ),
     );
   }
-  //update List item
-//   void updateListView() {
-//     final Future<Database> dbFuture = dbHelper.initDb();
-//     dbFuture.then((database) {
-//       //TODO 1 Select data dari DB
-//       Future<List<Item>> itemListFuture = dbHelper.getItemList();
-//       itemListFuture.then((itemList) {
-//         setState(() {
-//           this.itemList = itemList;
-//           this.count = itemList.length;
-//         });
-//       });
-//     });
-//   }
-
-//   //edit item
-//   void edit(Item object) async {
-//     int result = await dbHelper.update(object);
-//     if (result > 0) {
-//       updateListView();
-//     }
-//   }
-// }
+  // update List item
+  // void updateListView() {
+  //   final Future<Database> dbFuture = dbHelper.initDb();
+  //   dbFuture.then((database) {
+  //     //TODO 1 Select data dari DB
+  //     Future<List<Item>> itemListFuture = dbHelper.getItemList();
+  //     itemListFuture.then((itemList) {
+  //       setState(() {
+  //         this.itemList = itemList;
+  //         this.count = itemList.length;
+  //       });
+  //     });
+  //   });
+  // }
 }
